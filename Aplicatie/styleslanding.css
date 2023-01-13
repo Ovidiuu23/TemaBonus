@@ -1,0 +1,326 @@
+
+
+body{
+    background-color: wheat;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+.nav{
+    padding:0;
+    margin:0;
+    background-color:white;
+
+    /* Am incercat sa pun position fixed , insa imi muta butonul la stanga */
+}
+#logo{
+    height: 80px;
+}
+.button{
+    background-color: purple;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 350px;
+    float: right;
+      
+}
+.button:hover{
+    background-color: white;
+    color: purple;
+}
+
+
+footer{
+background-color:mediumslateblue;
+color: white;
+}
+
+
+.column{
+    float:left;
+    width: 33%;
+    padding: 5px;
+    height: 200px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul.social-share{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+ul.social-share>li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.copyright{
+    text-align: right;
+}
+
+ul.listafooter{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.listafooter:hover{
+    color: magenta;
+}
+
+ul.information-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.information-list:hover{
+    color: aqua;
+}
+
+.mainheadertext{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mainheadertext{
+    float: left;
+    width: 50%;
+    padding: 10x;
+    height: 200px;
+    
+} 
+
+.mainheader::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button2{
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 350px;     
+}
+
+.button2:hover{
+    background-color: rgb(25, 7, 92);
+    color: white;
+}
+
+.pretitlu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: rgb(29, 6, 92);
+    text-align: center;
+}
+
+.pretitlu2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(20, 3, 65);
+    text-align: center;
+}
+
+
+.column2{
+    float:left;
+    width: 33.33%;
+    height: 300px;
+    
+}
+
+.row2::after{
+     content: "";
+     display: table;
+     clear: both;
+}
+
+.col1:hover{
+    background-color: blueviolet;
+}
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+}
+
+.descriere{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+
+}
+
+.logintitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.loginsubtitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.locatiititle{
+    font-family: 'Courier New', Courier, monospace;
+    color: mediumslateblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.locatiisubtitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.carousel{
+    position: relative;
+    
+} 
+
+.carouselitem{
+     float:left;
+    width: 33%;
+    padding: 5px;
+    display: none;
+} 
+.carouselitemselected{
+    display: block;
+}
+
+.carousel::after{
+    content: "";
+    clear: both;
+    display: table;
+   
+} 
+ .carouselnav{
+    width: 100px;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    text-align: center;
+}
+
+
+.carouselbutton{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+   
+}
+
+.trainer{
+    float:left; 
+    width: 25%;
+    position: relative;
+    
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.team{
+    height: 500px;
+}
+
+.imageteam{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.trainer:hover .overlay{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nume{
+    text-align: center;
+}
+.profesie{
+    text-align: center;
+}
+
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }

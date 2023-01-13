@@ -1,0 +1,35 @@
+1. Ce este un algoritm?
+	A. O problema de rezolvat cu ajutorul calculatorului
+	B. Un set de pasi, repetati pentru a gasi rezultatul
+	C. O materie de liceu
+	D. N-am auzit niciodata de acest cuvant
+Answer: B
+
+2. Ce putem afirma atunci cand clasa B mosteneste clasa A?
+	A. Clasa A ia toate campurile si metodele clasei B
+	B. Clasa B ia toate metodele si campurile clasei A
+	C. Clasa B devine o copie a clasei A
+	D. N-am auzit niciodata de clase
+Answer: B
+
+3. Care sunt functiile principale ale unui server?
+	A. Gestioneaza request-urile si serveste resursele statice
+	B. Ne ajuta sa ne jucam pe Internet
+	C. Este un computer care ruleaza 24/7
+	D. N-am auzit niciodata de server
+Answer: A
+
+4. Ce serviciu este potrivit pentru a gestiona cod intr-o echipa?
+	A. Maven
+	B. Cucumber
+	C. GitHub
+	D. Foaia de hartie si pixul
+Answer: C
+
+5. Care este Package Manager-ul limbajului Python?
+	A. pip
+	B. py
+	C. apt
+	D. dhl
+Answer: A
+	
